@@ -14,18 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keebio:ProMicro U1
-U 1 1 6095D310
-P 2500 2100
-F 0 "U1" H 2500 2937 60  0000 C CNN
-F 1 "ProMicro" H 2500 2831 60  0000 C CNN
-F 2 "Keebio Footprints:ArduinoProMicro-Mini-USB" V 3550 -400 60  0001 C CNN
-F 3 "" V 3550 -400 60  0001 C CNN
-	1    2500 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX6
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX6
 U 1 1 60964D97
 P 5300 1550
 F 0 "MX6" H 5333 1773 60  0000 C CNN
@@ -36,7 +25,7 @@ F 3 "" H 4675 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX11
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX11
 U 1 1 609659C7
 P 5950 1550
 F 0 "MX11" H 5983 1773 60  0000 C CNN
@@ -47,7 +36,7 @@ F 3 "" H 5325 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX2
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX2
 U 1 1 60968FA8
 P 4650 2400
 F 0 "MX2" H 4683 2623 60  0000 C CNN
@@ -58,7 +47,7 @@ F 3 "" H 4025 2375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX7
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX7
 U 1 1 60968FAE
 P 5300 2400
 F 0 "MX7" H 5333 2623 60  0000 C CNN
@@ -69,7 +58,7 @@ F 3 "" H 4675 2375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX12
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX12
 U 1 1 60968FB4
 P 5950 2400
 F 0 "MX12" H 5983 2623 60  0000 C CNN
@@ -80,7 +69,7 @@ F 3 "" H 5325 2375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX3
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX3
 U 1 1 60973074
 P 4650 3200
 F 0 "MX3" H 4683 3423 60  0000 C CNN
@@ -91,7 +80,7 @@ F 3 "" H 4025 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX8
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX8
 U 1 1 6097307A
 P 5300 3200
 F 0 "MX8" H 5333 3423 60  0000 C CNN
@@ -102,7 +91,7 @@ F 3 "" H 4675 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX13
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX13
 U 1 1 60973080
 P 5950 3200
 F 0 "MX13" H 5983 3423 60  0000 C CNN
@@ -113,7 +102,7 @@ F 3 "" H 5325 3175 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX4
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX4
 U 1 1 6097478C
 P 4650 3950
 F 0 "MX4" H 4683 4173 60  0000 C CNN
@@ -124,7 +113,7 @@ F 3 "" H 4025 3925 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX9
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX9
 U 1 1 60974792
 P 5300 3950
 F 0 "MX9" H 5333 4173 60  0000 C CNN
@@ -135,7 +124,7 @@ F 3 "" H 4675 3925 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX14
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX14
 U 1 1 60974798
 P 5950 3950
 F 0 "MX14" H 5983 4173 60  0000 C CNN
@@ -157,7 +146,7 @@ F 3 "~" H 9250 1860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX5
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX5
 U 1 1 6096A0B2
 P 4650 4650
 F 0 "MX5" H 4683 4873 60  0000 C CNN
@@ -168,7 +157,7 @@ F 3 "" H 4025 4625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX10
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX10
 U 1 1 6096A0B8
 P 5300 4650
 F 0 "MX10" H 5333 4873 60  0000 C CNN
@@ -179,7 +168,7 @@ F 3 "" H 4675 4625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX15
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX15
 U 1 1 60970A05
 P 6600 1550
 F 0 "MX15" H 6633 1773 60  0000 C CNN
@@ -190,7 +179,7 @@ F 3 "" H 5975 1525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX16
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX16
 U 1 1 60970A0B
 P 6600 2400
 F 0 "MX16" H 6633 2623 60  0000 C CNN
@@ -201,7 +190,7 @@ F 3 "" H 5975 2375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX17
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX17
 U 1 1 60970A11
 P 6600 3200
 F 0 "MX17" H 6633 3423 60  0000 C CNN
@@ -234,7 +223,7 @@ F 3 "~" H 9250 3510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX1
+L EGPad-rescue:MX-NoLED-MX_Alps_Hybrid MX1
 U 1 1 609643D8
 P 4650 1550
 F 0 "MX1" H 4683 1773 60  0000 C CNN
@@ -689,11 +678,9 @@ Connection ~ 8200 1700
 Wire Wire Line
 	7950 1500 8200 1500
 Connection ~ 8200 1500
-Text GLabel 1650 1950 0    50   Input ~ 0
+Text GLabel 1650 1550 0    50   Input ~ 0
 A1
-Text GLabel 3350 1950 2    50   Input ~ 0
-B1
-Text GLabel 1650 2050 0    50   Input ~ 0
+Text GLabel 1650 1650 0    50   Input ~ 0
 A2
 Text GLabel 3350 2050 2    50   Input ~ 0
 B2
@@ -1077,10 +1064,241 @@ Wire Wire Line
 	3200 1650 3350 1650
 Wire Wire Line
 	3200 1850 3400 1850
-NoConn ~ 3200 1750
 NoConn ~ 3200 1550
-NoConn ~ 1800 1550
-NoConn ~ 1800 1650
-NoConn ~ 1800 1750
-NoConn ~ 1800 1850
+Text GLabel 3350 1950 2    50   Input ~ 0
+B1
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 617A9906
+P 1150 3400
+F 0 "J1" H 1100 3100 50  0000 L CNN
+F 1 "OLED" H 1050 3600 50  0000 L CNN
+F 2 "kbd:OLED" H 1150 3400 50  0001 C CNN
+F 3 "~" H 1150 3400 50  0001 C CNN
+	1    1150 3400
+	-1   0    0    1   
+$EndComp
+Text GLabel 3400 3800 3    50   Input ~ 0
+SCL
+Wire Wire Line
+	1650 1550 1800 1550
+Wire Wire Line
+	1650 1650 1800 1650
+Text GLabel 1650 2050 0    50   Input ~ 0
+SCL
+Text GLabel 1650 1950 0    50   Input ~ 0
+SDA
+$Comp
+L power:GND #PWR0105
+U 1 1 6180172F
+P 1450 1850
+F 0 "#PWR0105" H 1450 1600 50  0001 C CNN
+F 1 "GND" V 1455 1722 50  0000 R CNN
+F 2 "" H 1450 1850 50  0001 C CNN
+F 3 "" H 1450 1850 50  0001 C CNN
+	1    1450 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 1750 1700 1750
+Wire Wire Line
+	1700 1750 1700 1850
+Wire Wire Line
+	1700 1850 1450 1850
+Wire Wire Line
+	1800 1850 1700 1850
+Connection ~ 1700 1850
+$Comp
+L Switch:SW_Push RSW1
+U 1 1 6181804A
+P 2150 5800
+F 0 "RSW1" H 2250 5900 50  0000 C CNN
+F 1 "SW_Push" H 2150 5700 50  0000 C CNN
+F 2 "kbd:ResetSW" H 2150 6000 50  0001 C CNN
+F 3 "~" H 2150 6000 50  0001 C CNN
+	1    2150 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 5800 0    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR0106
+U 1 1 61819577
+P 2550 5800
+F 0 "#PWR0106" H 2550 5550 50  0001 C CNN
+F 1 "GND" H 2555 5627 50  0000 C CNN
+F 2 "" H 2550 5800 50  0001 C CNN
+F 3 "" H 2550 5800 50  0001 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5800 1750 5800
+Wire Wire Line
+	2350 5800 2550 5800
+Text GLabel 3350 1750 2    50   Input ~ 0
+reset
+Wire Wire Line
+	3200 1750 3350 1750
+$Comp
+L Device:R_Small R13
+U 1 1 6187E170
+P 3100 3600
+F 0 "R13" V 3200 3550 50  0000 L CNN
+F 1 "R" V 3100 3550 50  0000 L CNN
+F 2 "kbd:R" H 3100 3600 50  0001 C CNN
+F 3 "~" H 3100 3600 50  0001 C CNN
+	1    3100 3600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 6187F2FC
+P 3400 3600
+F 0 "R14" V 3500 3550 50  0000 L CNN
+F 1 "R" V 3400 3550 50  0000 L CNN
+F 2 "kbd:R" H 3400 3600 50  0001 C CNN
+F 3 "~" H 3400 3600 50  0001 C CNN
+	1    3400 3600
+	1    0    0    1   
+$EndComp
+Text GLabel 3100 3800 3    50   Input ~ 0
+SDA
+Wire Wire Line
+	3100 3800 3100 3700
+Wire Wire Line
+	3400 3800 3400 3700
+$Comp
+L power:VCC #PWR0109
+U 1 1 6188F630
+P 3100 3400
+F 0 "#PWR0109" H 3100 3250 50  0001 C CNN
+F 1 "VCC" H 3115 3573 50  0000 C CNN
+F 2 "" H 3100 3400 50  0001 C CNN
+F 3 "" H 3100 3400 50  0001 C CNN
+	1    3100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 6188FE93
+P 3400 3400
+F 0 "#PWR0110" H 3400 3250 50  0001 C CNN
+F 1 "VCC" H 3415 3573 50  0000 C CNN
+F 2 "" H 3400 3400 50  0001 C CNN
+F 3 "" H 3400 3400 50  0001 C CNN
+	1    3400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3500 3100 3400
+Wire Wire Line
+	3400 3500 3400 3400
+$Comp
+L kbd:ProMicro U1
+U 1 1 6193DA09
+P 2500 2100
+F 0 "U1" H 2500 2937 60  0000 C CNN
+F 1 "ProMicro" H 2500 2831 60  0000 C CNN
+F 2 "kbd:ProMicro_v2" H 2600 1050 60  0001 C CNN
+F 3 "" H 2600 1050 60  0000 C CNN
+	1    2500 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 3600 2    50   Input ~ 0
+SCL
+Wire Wire Line
+	2150 3800 2250 3800
+Wire Wire Line
+	2150 3600 2250 3600
+Wire Wire Line
+	2150 3400 2250 3400
+Wire Wire Line
+	2150 3200 2250 3200
+Wire Wire Line
+	1850 3800 1950 3800
+Wire Wire Line
+	1900 3600 1950 3600
+Wire Wire Line
+	1900 3400 1900 3600
+Wire Wire Line
+	1950 3300 1950 3400
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 618326AD
+P 2050 3800
+F 0 "JP4" H 2050 3850 50  0000 C CNN
+F 1 "Jmp" H 2050 3750 50  0000 C CNN
+F 2 "kbd:Jumper" H 2050 3800 50  0001 C CNN
+F 3 "~" H 2050 3800 50  0001 C CNN
+	1    2050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 61832339
+P 2050 3600
+F 0 "JP3" H 2050 3650 50  0000 C CNN
+F 1 "Jmp" H 2050 3550 50  0000 C CNN
+F 2 "kbd:Jumper" H 2050 3600 50  0001 C CNN
+F 3 "~" H 2050 3600 50  0001 C CNN
+	1    2050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 61831FDA
+P 2050 3400
+F 0 "JP2" H 2050 3450 50  0000 C CNN
+F 1 "Jmp" H 2050 3350 50  0000 C CNN
+F 2 "kbd:Jumper" H 2050 3400 50  0001 C CNN
+F 3 "~" H 2050 3400 50  0001 C CNN
+	1    2050 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 618310F3
+P 2250 3400
+F 0 "#PWR0108" H 2250 3250 50  0001 C CNN
+F 1 "VCC" V 2265 3528 50  0000 L CNN
+F 2 "" H 2250 3400 50  0001 C CNN
+F 3 "" H 2250 3400 50  0001 C CNN
+	1    2250 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 61830D52
+P 2250 3200
+F 0 "#PWR0107" H 2250 2950 50  0001 C CNN
+F 1 "GND" V 2255 3072 50  0000 R CNN
+F 2 "" H 2250 3200 50  0001 C CNN
+F 3 "" H 2250 3200 50  0001 C CNN
+	1    2250 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 6182E75B
+P 2050 3200
+F 0 "JP1" H 2050 3250 50  0000 C CNN
+F 1 "Jmp" H 2050 3150 50  0000 C CNN
+F 2 "kbd:Jumper" H 2050 3200 50  0001 C CNN
+F 3 "~" H 2050 3200 50  0001 C CNN
+	1    2050 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 3800 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	1850 3500 1850 3800
+Wire Wire Line
+	1350 3500 1850 3500
+Wire Wire Line
+	1350 3200 1950 3200
+Wire Wire Line
+	1350 3300 1950 3300
+Wire Wire Line
+	1350 3400 1900 3400
 $EndSCHEMATC
