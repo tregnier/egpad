@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EGPad-rescue)(type Legacy)(uri ${KIPRJMOD}/EGPad-rescue.lib)(options "")(descr ""))
+)
